@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openvpn-python-wrapper"
+version = "0.1.0"
+description = "Module Python pour piloter une connexion OpenVPN"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+py-modules = ["vpn"]
